@@ -1,4 +1,4 @@
-# Korean Jaso Analyzer for Elasticsearch 8.6.2 
+# Korean Jaso Analyzer for Elasticsearch 8.13.4 
   (자동완성 플러그인)
 
 ## Build & Packaging
@@ -8,7 +8,7 @@
 $ sh gradlew clean build buildPluginZip
 ~~~
 
-###### 자동완성용 한글 자소분석기입니다. elasticsearch 8.6.2 에서 테스트 되었습니다
+###### 자동완성용 한글 자소분석기입니다. elasticsearch 8.13.4 에서 테스트 되었습니다
 
 ## 도커 컨데이이너에서 elasticsearch, kibana 설치/실행
 ```
@@ -21,7 +21,7 @@ docker-compose up -d
 
 ###### *설치*
 ```
-bin/elasticsearch-plugin install https://github.com/netcrazy/elasticsearch-jaso-analyzer/releases/download/v8.6.2/jaso-analyzer-plugin-8.6.2-plugin.zip
+bin/elasticsearch-plugin install https://github.com/snurf198/elasticsearch-jaso-analyzer/releases/download/v8.13.4/jaso-analyzer-plugin-8.13.4-plugin.zip
 ```
 
 ###### *삭제 (필요시)*
